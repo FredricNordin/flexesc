@@ -301,6 +301,7 @@ footer {
   color: white;
 }
 
+/* TEST BIG SCREEN */
 @media only screen and (max-width: 1800px) {
 
   .challenges {
