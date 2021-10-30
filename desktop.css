@@ -13,12 +13,12 @@
   }
   
 /* HEADER */
-  .headercontainer > div {
+  .websiteTitle > div {
     text-align: center;
     color: #ffffff;
   }
 
-  .headercontainer {
+  .websiteTitle {
     display: flex;
     background-color: #011827;
     align-items: flex-end;
@@ -56,18 +56,18 @@ nav > a {
     width: 100%;
   }
 
-  .heromobile {
+  .heroMobile {
     display: none;
   }
 
-  .herobuttons {
+  .heroButtons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
   }
 
-  .herobuttons > button {
+  .heroButtons > button {
     font-size: 40px;
     margin-top: -50px;
     padding: 20px 60px;
@@ -75,12 +75,12 @@ nav > a {
     border-style: none;
   }
 
-  .herobuttons > button:nth-child(1) {
+  .heroButtons > button:nth-child(1) {
     background-color: #E3170A;
     color: white;
   }
 
-  .herobuttons > button:nth-child(2) {
+  .heroButtons > button:nth-child(2) {
     background-color: #8ACFE5;
     color: black;
   }
@@ -102,16 +102,16 @@ nav > a {
     margin-top: 100px;
   }
 
-  .blockquote > p {
-    font-size: 20px;
+  blockquote > p {
+    font-size: 18px;
   }
-
+ 
 /* POPULAR CHALLENGES */
-.popular-challenges {
+.popularChallenges {
   margin-top: 50px;
 }
 
-.popular-challenges h2 {
+.popularChallenges h2 {
   margin-bottom: 100px;
   font-size: 56px;
   text-align: center;
@@ -129,7 +129,7 @@ nav > a {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.cardimg {
+.cardImg {
   width: 100%;
 }
 
@@ -165,14 +165,14 @@ nav > a {
   margin-left: 250px;
 }
 
-.challengesbuttons {
+.challengesButtons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.challengesbuttons > button {
+.challengesButtons > button {
   font-size: 40px;
   margin-top: 100px;
   padding: 20px 60px;
@@ -180,25 +180,25 @@ nav > a {
   border-style: none;
 }
 
-.challengesbuttons > button:nth-child(1) {
+.challengesButtons > button:nth-child(1) {
   background-color: #E3170A;
   color: white;
 }
 
-.challengesbuttons > button:nth-child(2) {
+.challengesButtons > button:nth-child(2) {
   background-color: #8ACFE5;
   color: black;
 }
 
 /* OUR STORY */
-.ourstory {
+.ourStory {
   margin-top: 100px;
   padding-top: 50px;
   background-color: #011827 ;
   height: 600px;
 }
 
-.storytext {
+.storyText {
   margin: 0 auto;
   margin-top: 100px;
   color: #ffffff;
@@ -208,7 +208,7 @@ nav > a {
   height: 250px;
 }
 
-.readbutton {
+.readButton {
   margin-top: 50px;
   font-size: 40px;
   border-color: #8ACFE5;
@@ -219,34 +219,34 @@ nav > a {
 }
 
 /* FOUR SQUARES */
-.foursquares1 {
+.twoSquares {
   display: flex;
   justify-content: center;
 }
 
-.squareimg1 {
+.squareImg1 {
   width: 50%;
 }
 
-.squaretext {
+.squareText {
   width: 50%;
 }
 
-.textbox {
+.textBox {
   width: 600px;
   margin-left: 130px;
   margin-top: 100px;
 }
 
-.textbox h2 {
+.textBox h2 {
   font-size: 48px;
 }
 
-.textbox p {
+.textBox p {
   font-size: 38px;
 }
 
-.textbox button {
+.textBox button {
   font-size: 40px;
   padding: 20px 60px;
   border-radius: 5px;
@@ -255,12 +255,12 @@ nav > a {
   color: white;
 }
 
-.foursquares2 {
+.twoSquares2 {
   display: flex;
   justify-content: center;
 }
 
-.squareimg2 {
+.squareImg2 {
   width: 50%;
 }
 
@@ -276,27 +276,27 @@ footer {
   color: white;
 }
 
-.footer1 {
+.row1 {
   width: 500px;
   margin-left: 150px;
 }
 
-.footer2 {
+.row2 {
   width: 200px;
   margin-left: 400px;
 }
 
-.footer3 {
+.row3 {
   width: 200px;
   margin-left: 100px;
 }
 
-.text {
+.rowText {
   font-size: 24px;
   margin-top: 180px;
 }
 
-.text a {
+.rowText a {
   text-decoration: none;
   color: white;
 }
@@ -308,11 +308,11 @@ footer {
   zoom: 0.9;
   }
 
-  .foursquares1 {
+  .twoSquares {
   zoom: 0.9;
   }
 
-  .foursquares2 {
+  .twoSquares2 {
   zoom: 1;
   }
 }
@@ -347,13 +347,13 @@ footer {
     display: none;
   }
 
-  .heromobile {
+  .heroMobile {
     display: unset;
     width: 480px;
     height: 274px;
   }
 
-  .herobuttons > button {
+  .heroButtons > button {
     font-size: 24px;
     margin-top: 50px;
     padding: 20px 50px;
@@ -361,7 +361,7 @@ footer {
     border-style: none;
   }
 
-  .herobuttons {
+  .heroButtons {
     display: block;
   }
 
@@ -395,7 +395,7 @@ footer {
   }
 
   .faceImg1 {
-    margin-top: -50px;
+    margin-top: -30px;
     width: 73px;
     margin-right: 15px;
   }
@@ -406,7 +406,7 @@ footer {
   }
 
   .quote1 > p {
-    font-size: 18px;
+    font-size: 17px;
     transform: translateX(-0px);
   }
 
@@ -416,7 +416,7 @@ footer {
   }
 
   /* IF MOBILE - POPULAR CHALLENGES */
-  .popular-challenges h2 {
+  .popularChallenges h2 {
     font-size: 32px;
     text-align: center;
     margin-left: -20px;
@@ -435,11 +435,11 @@ footer {
     zoom: 0.7;
   }
 
-  .challengesbuttons {
+  .challengesButtons {
     display: block;
   }
 
-  .challengesbuttons > button {
+  .challengesButtons > button {
     font-size: 24px;
     margin-top: 50px;
     padding: 20px 50px;
@@ -447,7 +447,7 @@ footer {
     border-style: none;
   }
 
-  .challengesbuttons > button:nth-child(2) {
+  .challengesButtons > button:nth-child(2) {
     
     border-style: none;
     background-color: #8ACFE5;
@@ -456,7 +456,7 @@ footer {
     font-weight: bold;
   }
  
-  .challengesbuttons > button:nth-child(1) {
+  .challengesButtons > button:nth-child(1) {
     border-style: none;
     color: #36769D;
     transform: translate(110px, 80px);
@@ -467,14 +467,14 @@ footer {
   }
 
   /* IF MOBILE - OURSTORY */
-  .ourstory {
+  .ourStory {
     margin-top: 0px;
     padding-top: 10px;
     background-color: #011827 ;
     height: 500px;
   }
   
-  .storytext {
+  .storyText {
     margin: 0 auto;
     margin-top: 100px;
     color: #ffffff;
@@ -484,7 +484,7 @@ footer {
     height: 234px;
   }
   
-  .readbutton {
+  .readButton {
     margin-top: 50px;
     font-size: 24px;
     border-color: #8ACFE5;
@@ -495,37 +495,37 @@ footer {
   }
 
   /* IF MOBILE - FOUR SQUARES */
-  .foursquares1 {
+  .twoSquares {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
   
-  .squareimg1 {
+  .squareImg1 {
     width: 100%;
   }
   
-  .squaretext {
+  .squareText {
     width: 440px
   }
   
-  .textbox {
+  .textBox {
     width: 440px;
     margin-top: 40px;
     margin-left: 0px;
   
   }
   
-  .textbox h2 {
+  .textBox h2 {
     font-size: 32px;
   }
   
-  .textbox p {
+  .textBox p {
     font-size: 24px;
   }
   
-  .textbox > button {
+  .textBox > button {
     font-size: 24px;
     padding: 20px 60px;
     border-radius: 5px;
@@ -535,14 +535,14 @@ footer {
     margin-bottom: 50px;
   }
   
-  .foursquares2 {
+  .twoSquares2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
   
-  .squareimg2 {
+  .squareImg2 {
     width: 100%;
     order: -1;
   }
@@ -559,27 +559,27 @@ footer {
     color: white;
   }
   
-  .footer1 {
+  .row1 {
     width: 439px;
     margin-left: 20px;
   }
   
-  .footer2 {
+  .row2 {
     width: 400px;
     margin-left: 20px;
   }
   
-  .footer3 {
+  .row3 {
     width: 400px;
     margin-left: 20px;
   }
   
-  .text {
+  .rowText {
     font-size: 18px;
     margin-top: 10px;
   }
   
-  .text a {
+  .rowText a {
     text-decoration: none;
     color: white;
   }
