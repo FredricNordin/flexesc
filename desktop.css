@@ -1,5 +1,3 @@
-
-  
   body {
     margin: 0;
   }
@@ -29,10 +27,10 @@
     width: 150px;
 }
 
-.title {
+  .title {
     font-size: 78px;
     margin-left: 24px;
-}
+  }
 
 
 /* NAVBAR */
@@ -78,11 +76,13 @@ nav > a {
   .heroButtons > button:nth-child(1) {
     background-color: #E3170A;
     color: white;
+    font-weight: bold;
   }
 
   .heroButtons > button:nth-child(2) {
     background-color: #8ACFE5;
     color: black;
+    font-weight: bold;
   }
 
   /* TESTIMONIALS */
