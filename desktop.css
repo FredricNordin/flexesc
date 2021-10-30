@@ -317,6 +317,7 @@ footer {
   }
 }
 
+/* IF MOBILE */
 @media only screen and (max-width: 480px) {
   html, body {
     width: 480px;
@@ -336,11 +337,12 @@ footer {
     margin-left: 10px;
     transform: translateY(-15px);
   }
-  
+  /* IF MOBILE - NAVBAR */
   nav {
   display: none;
   }
 
+  /* IF MOBILE - HERO */
   .hero {
     display: none;
   }
@@ -379,6 +381,7 @@ footer {
     font-weight: bold;
   }
 
+  /* IF MOBILE - TESTIMONIALS */
   .testimonials {
     margin-top: -60px;
   }
@@ -412,6 +415,7 @@ footer {
     margin-left: 1px;
   }
 
+  /* IF MOBILE - POPULAR CHALLENGES */
   .popular-challenges h2 {
     font-size: 32px;
     text-align: center;
@@ -462,6 +466,7 @@ footer {
     font-weight: bold;
   }
 
+  /* IF MOBILE - OURSTORY */
   .ourstory {
     margin-top: 0px;
     padding-top: 10px;
@@ -489,7 +494,7 @@ footer {
     padding: 20px 60px;
   }
 
-
+  /* IF MOBILE - FOUR SQUARES */
   .foursquares1 {
     display: flex;
     flex-wrap: wrap;
@@ -542,7 +547,7 @@ footer {
     order: -1;
   }
 
-
+  /* IF MOBILE - FOOTER */
   footer {
     margin-top: 50px;
     padding: 50px 0;
