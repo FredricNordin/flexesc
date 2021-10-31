@@ -11,16 +11,17 @@
   }
   
 /* HEADER */
+
+.websiteTitle {
+  display: flex;
+  background-color: #011827;
+  align-items: flex-end;
+  padding: 26px 27px;
+}
+
   .websiteTitle > div {
     text-align: center;
     color: #ffffff;
-  }
-
-  .websiteTitle {
-    display: flex;
-    background-color: #011827;
-    align-items: flex-end;
-    padding: 26px 27px;
   }
 
   .logo {
@@ -32,15 +33,7 @@
     margin-left: 24px;
   }
 
-
 /* NAVBAR */
-nav > a {
-    text-align: center;
-    font-size: 28px;
-    color: #ffffff;
-    text-decoration: none;
-  }
-
   nav {
     display: flex;
     background-color: #011827;
@@ -48,6 +41,16 @@ nav > a {
     justify-content: space-evenly;
   }
 
+  nav > a {
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #8ACFE5;
+  }
 
 /* HERO */
   .hero {
@@ -183,11 +186,13 @@ nav > a {
 .challengesButtons > button:nth-child(1) {
   background-color: #E3170A;
   color: white;
+  font-weight: bold;
 }
 
 .challengesButtons > button:nth-child(2) {
   background-color: #8ACFE5;
   color: black;
+  font-weight: bold;
 }
 
 /* OUR STORY */
@@ -265,7 +270,6 @@ nav > a {
 }
 
 /* FOOTER */
-
 footer {
   margin-top: 280px;
   background-color: #011827;
