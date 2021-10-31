@@ -159,13 +159,14 @@
 }
 
 .bookBtn {
-  font-size: 26px;
+  font-size: 24px;
   background-color: #E3170A;
   color: white;
-  padding: 20px 60px;
+  padding: 20px 50px;
   border-radius: 5px;
   border-style: none;
   margin-left: 250px;
+  font-weight: bold;
 }
 
 .challengesButtons {
@@ -199,6 +200,7 @@
 .ourStory {
   margin-top: 100px;
   padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #011827 ;
   height: 600px;
 }
@@ -207,7 +209,7 @@
   margin: 0 auto;
   margin-top: 100px;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 39px;
   text-align: center;
   width: 852px;
   height: 250px;
@@ -215,12 +217,13 @@
 
 .readButton {
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 32px;
   border-color: #8ACFE5;
   border-radius: 5px;
   background-color: #ffffff00;
   color: #8ACFE5;
-  padding: 20px 60px;
+  padding: 30px 70px;
+  font-weight: bold;
 }
 
 /* FOUR SQUARES */
@@ -258,6 +261,7 @@
   border-style: none;
   background-color: #E3170A;
   color: white;
+  font-weight: bold;
 }
 
 .twoSquares2 {
@@ -315,7 +319,7 @@ footer {
   }
 
   .twoSquares2 {
-  zoom: 1;
+  zoom: 0.9;
   }
 }
 
@@ -480,7 +484,7 @@ footer {
     margin: 0 auto;
     margin-top: 100px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
     width: 439px;
     height: 234px;
@@ -493,7 +497,7 @@ footer {
     border-radius: 5px;
     background-color: #ffffff00;
     color: #8ACFE5;
-    padding: 20px 60px;
+    padding: 20px 50px;
   }
 
   /* IF MOBILE - FOUR SQUARES */
