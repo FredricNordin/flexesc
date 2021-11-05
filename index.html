@@ -18,6 +18,7 @@
         <div class="websiteTitle">
             <img class="logo" src="img/logo.png" alt="logo">
             <div class="title">Hacker Escape Rooms</div>
+            <div id="hamburger"><img src="img/hamburger.png" alt="mobile menu" onclick="mobileMenu()"></div>
         </div>
 
         <!-- Menu navigation -->
@@ -27,6 +28,17 @@
             <a href="#thestory">The story</a>
             <a href="#contactus">Contact us</a>
         </nav>
+
+        <!-- MOBILE MENU SPAWN -->
+        <div class="mobile-menu">
+            <ul>
+                <img id="closeHamburger" src="img/close.png" alt="close mobile menu" onclick="mobileMenu()">
+                <li><a href="#playonline">Play online</a></li>
+                <li><a href="#playonsite">Play on-site</a></li>
+                <li><a href="#thestory">The story</a></li>
+                <li><a href="#contactus">Contact us</a></li>
+            </ul>
+        </div> 
     </header>
 
     <main>
@@ -226,7 +238,9 @@
                 </div>
             </div>
         </footer>
+        
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
