@@ -34,7 +34,7 @@
   }
 
   /* Mobile menu | Hamburger */
-  #hamburger {
+  .mobile-menu {
     display: none;
   }
 
