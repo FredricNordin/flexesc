@@ -367,10 +367,10 @@ footer {
   .mobile-menu {
     position: absolute;
     z-index: 1;
-    margin-left: 20px;
-    margin-top: -130px;
+    margin-left: 0px;
+    margin-top: -144px;
     display: none;
-    width: 440px;
+    width: 480px;
     height: 900px;
     text-align: center;
     font-size: 36px;
