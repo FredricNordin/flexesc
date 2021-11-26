@@ -37,10 +37,6 @@
   #hamburger {
     display: none;
   }
-  
-  .mobile-menu {
-    display: none;
-  }
 
 /* NAVBAR */
   nav {
@@ -365,13 +361,11 @@ footer {
 
   /* IF MOBILE - MOBILE MENU */
   .mobile-menu {
-    position: absolute;
-    z-index: 1;
-    margin-left: 20px;
-    margin-top: -130px;
-    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
     width: 440px;
-    height: 900px;
+    height: 765px;
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -399,11 +393,12 @@ footer {
 
   #closeHamburger {
     margin-left: 320px;
-    margin-top: 0px;
+    margin-top: 70px;
   }
 
   .mobile-menu ul {
     list-style-type: none;
+    margin-top: -40px;
     margin-left: -30px;
 }
 
@@ -416,6 +411,15 @@ footer {
     text-decoration: none;
     color: white;
     text-align: center;
+  }
+
+  .menu-background {
+    background-color:rgb(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   /* IF MOBILE - HERO */
